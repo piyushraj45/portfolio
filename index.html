@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Piyush Raj | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="loader-text">PR</div>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+
+  <!-- Nav -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">PRINCE<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#hero" class="mob-link">Home</a></li>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#projects" class="mob-link">Projects</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="grid-lines"></div>
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">BCA Student 🎓</div>
+      <h1 class="hero-name reveal">
+        <span class="line">PIYUSH</span>
+        <span class="line accent-line">RAJ</span>
+      </h1>
+      <p class="hero-tagline reveal">Aspiring <span class="type-text" id="typeText"></span></p>
+      <p class="hero-sub reveal">I build data-driven insights and web applications.</p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-social reveal">
+        <a href="https://github.com/piyushraj45" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/piyush-raj-2a3047383?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:piyushraj473301@email.com" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="#" title="Twitter / X"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/piy_x.10?igsh=ZjRldmtvN3I0dTRi" title="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="hero-photo reveal">
+      <div class="photo-ring"></div>
+      <div class="photo-wrap">
+        <img src="https://api.dicebear.com/7.x/adventurer/svg?seed=piyush&backgroundColor=b6e3f4" alt="Piyush Raj" />
+      </div>
+      <div class="photo-tag tag1">Data Analyst</div>
+      <div class="photo-tag tag2">Full Stack Dev</div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label reveal">Who Am I</div>
+      <h2 class="section-title reveal">About <span>Me</span></h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I am a <strong>BCA student</strong> passionate about data analysis and full stack development. I enjoy working with data to extract insights and building web applications that solve real-world problems.</p>
+          <p>I am continuously improving my technical and problem-solving skills, bridging the gap between raw data and meaningful user experiences.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Projects</span></div>
+            <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Years Learning</span></div>
+            <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Tech Skills</span></div>
+          </div>
+        </div>
+        <div class="about-edu reveal">
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="edu-info">
+              <h4>Bachelor of Computer Applications</h4>
+              <p>LNCT UNIVERSITY</p>
+              <span>2024 – 2027</span>
+            </div>
+          </div>
+          <div class="fun-facts">
+            <div class="fact"><i class="fas fa-chart-bar"></i> Loves turning data into stories</div>
+            <div class="fact"><i class="fas fa-code"></i> Building full-stack apps</div>
+            <div class="fact"><i class="fas fa-lightbulb"></i> Always learning something new</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label reveal">What I Know</div>
+      <h2 class="section-title reveal">My <span>Skills</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-group reveal">
+          <div class="skill-group-header">
+            <i class="fas fa-chart-pie"></i>
+            <h3>Data Analyst</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill">Excel</span>
+            <span class="pill">SQL</span>
+            <span class="pill">Python</span>
+            <span class="pill">Pandas</span>
+            <span class="pill">NumPy</span>
+            <span class="pill">Power BI</span>
+            <span class="pill">Tableau</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-header">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Full Stack</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">Java</span>
+            <span class="pill">Node.js</span>
+            <span class="pill">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-header">
+            <i class="fas fa-people-group"></i>
+            <h3>Soft Skills</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="pill">Communication</span>
+            <span class="pill">Problem Solving</span>
+            <span class="pill">Teamwork</span>
+            <span class="pill">Time Management</span>
+            <span class="pill">Adaptability</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label reveal">What I've Built</div>
+      <h2 class="section-title reveal">My <span>Projects</span></h2>
+      <div class="filter-tabs reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="data">Data</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal" data-cat="data">
+          <div class="project-icon">📊</div>
+          <div class="project-tag">Data</div>
+          <h3>Sales Data Analysis Dashboard</h3>
+          <p>Analyzed sales data to identify trends and revenue patterns. Created interactive dashboards for improved decision-making.</p>
+          <div class="project-tools">
+            <span>Excel</span><span>Power BI</span>
+          </div>
+          <div class="project-outcome">✅ Improved decision-making via data visualization</div>
+        </div>
+
+        <div class="project-card reveal" data-cat="data">
+          <div class="project-icon">🐍</div>
+          <div class="project-tag">Data</div>
+          <h3>Python Data Analysis</h3>
+          <p>Cleaned and analyzed raw datasets using Python. Performed data preprocessing and exploratory data analysis (EDA).</p>
+          <div class="project-tools">
+            <span>Python</span><span>Pandas</span><span>NumPy</span>
+          </div>
+          <div class="project-outcome">✅ Extracted meaningful insights from raw data</div>
+        </div>
+
+        <div class="project-card reveal" data-cat="data">
+          <div class="project-icon">🗄️</div>
+          <div class="project-tag">Data</div>
+          <h3>SQL Data Analysis</h3>
+          <p>Performed data analysis using SQL queries with JOIN, GROUP BY, and aggregation functions.</p>
+          <div class="project-tools">
+            <span>SQL</span><span>MySQL</span>
+          </div>
+          <div class="project-outcome">✅ Generated structured reports from data</div>
+        </div>
+
+        <div class="project-card reveal" data-cat="web">
+          <div class="project-icon">🌐</div>
+          <div class="project-tag">Web</div>
+          <h3>Student Management System</h3>
+          <p>Built a CRUD web application for managing student records with add, update, and delete features.</p>
+          <div class="project-tools">
+            <span>HTML</span><span>CSS</span><span>JS</span><span>Java</span><span>MySQL</span>
+          </div>
+          <div class="project-outcome">✅ Learned backend & database integration</div>
+        </div>
+
+        <div class="project-card reveal" data-cat="web">
+          <div class="project-icon">💼</div>
+          <div class="project-tag">Web</div>
+          <h3>Portfolio Website</h3>
+          <p>Developed personal portfolio with responsive design and clean UI to establish professional online presence.</p>
+          <div class="project-tools">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-outcome">✅ Built professional online presence</div>
+        </div>
+
+        <div class="project-card reveal" data-cat="web">
+          <div class="project-icon">✅</div>
+          <div class="project-tag">Web</div>
+          <h3>To-Do List App</h3>
+          <p>Created a task management web app with add/delete tasks and mark-complete functionality.</p>
+          <div class="project-tools">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-outcome">✅ Practiced JavaScript & DOM manipulation</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section class="resume-cta section">
+    <div class="container">
+      <div class="resume-banner reveal">
+        <div class="resume-text">
+          <h2>Want My Resume?</h2>
+          <p>Available on request — drop me an email!</p>
+        </div>
+        <a href="piyushraj473301@email.com" class="btn-primary">Request Resume <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label reveal">Let's Connect</div>
+      <h2 class="section-title reveal">Get In <span>Touch</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p>Whether you want to collaborate, have a question, or just say hi — my inbox is always open!</p>
+          <div class="contact-links">
+            <a href="mailto:your@email.com" class="contact-link">
+              <i class="fas fa-envelope"></i>
+              <span>piyushraj473301@email.com</span>
+            </a>
+            <a href="https://github.com/piyushraj45" target="_blank" class="contact-link">
+              <i class="fab fa-github"></i>
+              <span>piyushraj45</span>
+            </a>
+            <a href="https://www.linkedin.com/in/piyush-raj-2a3047383?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="contact-link">
+              <i class="fab fa-linkedin-in"></i>
+              <span>piyush raj</span>
+            </a>
+          </div>
+          <div class="social-icons">
+            <a href="https://github.com/piyushraj45" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/piyush-raj-2a3047383?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:piyushraj473301@email.com"><i class="fas fa-envelope"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/piy_x.10?igsh=ZjRldmtvN3I0dTRi"><i class="fab fa-instagram"></i></a>
+             <a href="https://www.facebook.com/share/18X16AXynS/" target="_blank"> <i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+          <div class="form-success" id="formSuccess">✅ Message sent! I'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>© 2025 Piyush Raj — Designed & Built with ❤️</span>
+      <a href="#hero" class="back-top"><i class="fas fa-arrow-up"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
